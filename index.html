@@ -1,61 +1,54 @@
 <!DOCTYPE html>
-<style>
-    * {
-        font-family: Verdana;
-        color: rgb(150,150,150);
-        background-color: rgb(30,30,30);
-    }
-    
-    #title {
-        border: 2px;
-        padding: 1%;
-        border-radius: 25px 5px;
-        background-color: rgb(50,50,50);
-        font-size: 0.7vw;
-    }
-</style>
-<html lang="en-GB">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <var web></var>
     <title>BlogBook</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">BlogBook</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="BeABlogBooker.html">Become a BlogBooker</a></li>
+                <li><a href="SubmitABlog.html">Submit a Blog</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <center>
-        <div id="title">
-        <h1 style="color: rgb(150,150,150); background-color: rgb(50,50,50);">
-            BlogBook - Your free, open source tech blogging website!
-        </h1>
-        </div>
-        </center>
-        <p><Spacing></Spacing></p>
-        <hr style="background-color: rgb(10,10,10); color: rgb(10,10,10); height: 0.1vw">
-        <p><Spacing></p>
+        <section class="blog-post">
+            <h2 class="post-title">Fancy Blog Title</h2>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna vel nibh laoreet eleifend. Duis
+                    euismod augue eu purus luctus, non fringilla lectus blandit. Integer bibendum, nisl a faucibus
+                    scelerisque, elit felis vulputate velit...</p>
+            </div>
+            <p class="meta">Published on January 28, 2024 by John Doe</p>
+        </section>
+
+        <!-- Add more blog posts as needed -->
+        <section class="blog-post">
+            <h2 class="post-title">Woah, another blog!</h2>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel consequuntur totam hic eius accusamus
+                    excepturi officia exercitationem itaque sed dolores. Recusandae, provident? Aspernatur perspiciatis numquam consequuntur,
+                    sint error amet voluptates.</p>
+            </div>
+            <p class="meta">Published on January 27, 2024 by John Doe's cousin</p>
+        </section>
+
     </main>
 
-    <!--
-        Blogs
-    -->
-
-    <div style="font-size: 1.5vw;">
-        The brand new x from x brand!
-    </div>
-
-    <p style="font-size: 1vw">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eligendi magnam facilis maxime adipisci, sed, dolorem perspiciatis architecto quasi aut tempore sequi accusamus aliquam nam vero nobis ipsam, praesentium pariatur.
-        Officiis quisquam temporibus reprehenderit dolores voluptatum. Corrupti, harum. Aliquam eveniet doloribus, earum quam, accusantium veniam vel iusto repudiandae corrupti adipisci, maxime optio.
-    </p>
-
-    <p style="font-size: 0.5vw">
-        Creator - <a href="creatorslink.com">creatornamehere</a>
-    </p>
-
-<footer>
-    <pre>
-    <p style="font-size: 0.5vw; position: absolute; bottom: 0; left: 0;">
-    Open source at <a href="https://github.com/goglesitebank/blogbook">my github</a>
-    Made by Connor for free, forever!
-    Donate <a href="https://paypal.me/notincludedyet">here</a> to help me!
-    </p>
-    </pre>
-</footer>
+    <footer>
+        <p>&copy; 2024 BlogBook. All rights reserved.</p>
+    </footer>
+</body>
 
 </html>
